@@ -84,3 +84,7 @@ img:not([alt]) {
     scroll-behavior: auto !important;
   }
 }
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
