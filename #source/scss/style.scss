@@ -5,6 +5,45 @@ $base-color: #880e4f;
 $base-lighter: #bc477b;
 $base-darker: #560027;
 $attention-color: #a41932;
-$base-background: #ffffff;
+$base-second-color: #ffffff;
 $link-color: #587dc5;
+
+body {
+  height: 10000px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  min-height: 50px;
+  background-color: $base-color;
+  color: $base-second-color;
+  font-family: "Roboto";
+}
+
+.header__nav {
+  width: 755px;
+  margin: 0 auto;
+}
+
+.header__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__li {
+  margin: 0 25px;
+  a {
+    text-decoration: none;
+    color: $base-second-color;
+  }
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+  }
+}
 
