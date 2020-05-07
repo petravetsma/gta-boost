@@ -98,17 +98,18 @@ img:not([alt]) {
   font-style: italic;
   src: url("../assets/fonts/Roboto-BoldItalic.ttf") format("truetype");
 }
-a {
-  color: #587dc5;
-}
-
 body {
   font-family: "Roboto";
 }
 
+a {
+  color: #587dc5;
+}
+
 .container {
   margin: 0 auto;
-  width: 720px;
+  padding: 0 25px;
+  width: 770px;
 }
 
 .header {
@@ -142,6 +143,9 @@ body {
 .header__li a {
   text-decoration: none;
   color: #ffffff;
+}
+.header__li a:hover {
+  color: #eccad9;
 }
 .header__li h2 {
   font-size: 25px;
@@ -187,6 +191,10 @@ body {
   font-size: 20px;
   background-color: #a41932;
   color: #ffffff;
+}
+.button:hover {
+  background-color: #e2415e;
+  cursor: pointer;
 }
 
 .offer__button {
@@ -314,6 +322,7 @@ body {
 .goods {
   display: flex;
   align-items: center;
+  min-height: 800px;
   height: 1048px;
   background-image: url("../assets/images/goods-back.jpg");
   background-position: center;
@@ -335,6 +344,12 @@ body {
   border: 1px solid #000000;
   border-radius: 15px;
   background-color: #ffffff;
+}
+.product-card:hover {
+  background-color: #bc477b;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.4s;
 }
 
 .product-card__name {
